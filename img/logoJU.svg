@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="45.937038mm"
+   height="45.96981mm"
+   viewBox="0 0 45.937038 45.96981"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="logoJU.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient176">
+      <stop
+         style="stop-color:#4fc6e3;stop-opacity:1"
+         offset="0"
+         id="stop172" />
+      <stop
+         style="stop-color:#75cd85;stop-opacity:1"
+         offset="1"
+         id="stop174" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient176"
+       id="linearGradient178"
+       x1="65.748306"
+       y1="57.195679"
+       x2="95.682487"
+       y2="88.733482"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="182.69327"
+     inkscape:cy="144.55051"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-57.49574,-49.44482)">
+    <path
+       id="path78"
+       style="fill:url(#linearGradient178);fill-opacity:1;fill-rule:evenodd;stroke-width:0.244668"
+       d="m 80.42537,49.444823 a 22.98518,22.98518 0 0 0 -7.168554,1.154454 v 6.333463 7.584549 h -7.196977 -7.191808 a 22.98518,22.98518 0 0 0 -0.133843,0.374655 22.98518,22.98518 0 0 0 -0.06976,0.203086 22.98518,22.98518 0 0 0 -1.080553,4.981094 c -0.282009,3.252028 0.113689,6.807501 1.17357,9.892934 1.736291,4.978763 5.0977,9.126543 9.399944,11.884031 a 22.98518,22.98518 0 0 0 0.05013,0.03152 c 0.131127,0.08358 0.264543,0.163446 0.397391,0.24443 a 22.98518,22.98518 0 0 0 0.0057,0.0031 22.98518,22.98518 0 0 0 11.701611,3.282492 v -3.66283 -3.880382 l -2.186948,-0.388091 c -4.762497,-0.81139 -9.172324,-4.0924 -11.218436,-8.290449 -1.093611,-2.18722 -1.975554,-5.926357 -1.5875,-6.561357 0.105836,-0.211669 1.869654,-0.352949 3.986321,-0.352949 h 3.774445 l 0.423749,1.799373 c 0.740836,3.03389 2.645735,4.868154 5.714896,5.467882 l 1.093473,0.211873 0.0708,-11.218436 0.105418,-11.253576 1.728579,0.105421 c 0.9525,0.07056 2.575694,0.423775 3.598746,0.811837 l 1.904793,0.705381 v 6.702952 6.667293 h 7.972636 7.739587 A 22.98518,22.98518 0 0 0 98.839257,58.642713 C 95.276833,53.961557 89.980133,50.651932 83.946109,49.73628 h -5.16e-4 c -0.759042,-0.116734 -2.0174,-0.219347 -3.361057,-0.290938 a 22.98518,22.98518 0 0 0 -0.136428,-5.19e-4 22.98518,22.98518 0 0 0 -0.02274,0 z m 14.809433,27.420033 -1.12913,2.292884 c -1.44639,2.89278 -4.056666,5.503196 -6.949446,6.914306 l -2.257745,1.12913 v 3.986319 3.792536 a 22.98518,22.98518 0 0 0 17.981338,-17.53795 c -0.0511,-0.541739 -0.48591,-0.577225 -3.834913,-0.577225 z" />
+  </g>
+</svg>

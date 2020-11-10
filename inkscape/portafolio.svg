@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="portafolio.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient176">
+      <stop
+         style="stop-color:#4fc6e3;stop-opacity:1"
+         offset="0"
+         id="stop172" />
+      <stop
+         style="stop-color:#75cd85;stop-opacity:1"
+         offset="1"
+         id="stop174" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient176"
+       id="linearGradient178"
+       x1="65.748306"
+       y1="57.195679"
+       x2="95.682487"
+       y2="88.733482"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.15561,0,0,0.9925167,182.3154,-41.66535)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="878.8198"
+     inkscape:cy="431.8491"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.65635"
+       id="rect889"
+       width="504.97617"
+       height="285.8569"
+       x="10.583333"
+       y="-0.86285186" />
+    <path
+       id="path78"
+       style="fill:url(#linearGradient178);fill-opacity:1;fill-rule:evenodd;stroke-width:0.262031"
+       d="m 275.25575,7.4094647 a 26.561903,22.813174 0 0 0 -8.28405,1.14581 v 6.2860773 7.527782 h -8.3169 -8.31092 a 26.561903,22.813174 0 0 0 -0.15466,0.371857 26.561903,22.813174 0 0 0 -0.0806,0.201569 26.561903,22.813174 0 0 0 -1.24869,4.943816 c -0.3259,3.227694 0.13145,6.756558 1.35617,9.818898 2.00648,4.941512 5.89096,9.058253 10.86268,11.795098 a 26.561903,22.813174 0 0 0 0.0579,0.03127 c 0.15153,0.08298 0.30571,0.162226 0.45923,0.2426 a 26.561903,22.813174 0 0 0 0.006,0.003 26.561903,22.813174 0 0 0 13.52249,3.257937 V 49.39973 45.548378 l -2.52727,-0.385184 c -5.50359,-0.805319 -10.59963,-4.061776 -12.96414,-8.228411 -1.26378,-2.170852 -2.28297,-5.882001 -1.83453,-6.512249 0.12236,-0.210087 2.1606,-0.350308 4.60665,-0.350308 h 4.36178 l 0.48968,1.785904 c 0.85613,3.011187 3.05745,4.83173 6.6042,5.426962 l 1.26363,0.210294 0.0819,-11.134489 0.12189,-11.169365 1.99755,0.104641 c 1.10073,0.07007 2.9765,0.420599 4.15874,0.805755 l 2.20122,0.700101 v 6.652799 6.617398 h 9.21324 8.94394 A 26.561903,22.813174 0 0 0 296.53457,16.538407 C 292.41779,11.892276 286.29687,8.6074227 279.3239,7.6986247 h -6e-4 c -0.87716,-0.115864 -2.33133,-0.217709 -3.88407,-0.288764 a 26.561903,22.813174 0 0 0 -0.15766,-5.16e-4 26.561903,22.813174 0 0 0 -0.0264,0 z m 17.11394,27.2148393 -1.30483,2.275731 c -1.67147,2.871132 -4.68794,5.462008 -8.03086,6.862559 l -2.60907,1.120679 v 3.95649 3.764159 a 26.561903,22.813174 0 0 0 20.77942,-17.406708 c -0.0591,-0.537686 -0.56153,-0.57291 -4.43167,-0.57291 z" />
+    <rect
+       style="fill:#51c6de;stroke:none;stroke-width:1.53379;fill-opacity:1"
+       id="rect60"
+       width="53.672611"
+       height="49.136902"
+       x="-274.41071"
+       y="25.702383"
+       rx="0"
+       ry="0" />
+    <rect
+       style="fill:#71cc8e;stroke:none;stroke-width:1.53379;fill-opacity:1"
+       id="rect62"
+       width="53.672611"
+       height="49.136902"
+       x="-185.20833"
+       y="26.458336"
+       rx="0"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="221.83369"
+       y="71.628227"
+       id="text893"><tspan
+         sodipodi:role="line"
+         id="tspan891"
+         x="221.83369"
+         y="71.628227"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#cccccc;stroke-width:0.264583">Joaquin Uliambre</tspan></text>
+    <g
+       id="g870"
+       transform="matrix(0.67518135,0,0,0.67518135,203.82853,63.951673)">
+      <g
+         id="g986"
+         transform="translate(0.99622912,18.174327)">
+        <circle
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.66833"
+           id="path901"
+           cx="99.958809"
+           cy="121.34037"
+           r="33.141422" />
+        <g
+           id="g3073"
+           transform="matrix(0.29893732,0,0,0.33706782,43.574581,-82.072058)"
+           style="fill:#dd1c1c;fill-opacity:1">
+          <path
+             style="fill:#dd1c1c;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.130528"
+             inkscape:connector-curvature="0"
+             class="fil0 str0"
+             d="m 149.02013,574.09162 h 26.39682 v -27.52738 h -52.57096 v 86.12798 c 0,0 1.5588,22.37135 30.86767,30.86767 l 70.69415,-0.66806 c 0,0 18.56856,-0.66806 29.53155,-31.31304 l 0.44537,-85.01455 h -27.52738 v 83.21594 c 0,0 -0.22269,6.49214 -11.18567,8.73613 l -56.59643,-0.44537 c 0,0 -9.16438,-0.23982 -9.72966,-9.74678 z"
+             id="path4217" />
+          <polygon
+             transform="matrix(0.01712967,0,0,0.01712967,99.909366,242.53963)"
+             style="fill:#dd1c1c;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.62"
+             class="fil0 str0"
+             points="5975,20518 4394,20531 4394,22125 5975,22125 "
+             id="polygon4219" />
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="44.901279"
+         y="189.76137"
+         id="text1008"><tspan
+           sodipodi:role="line"
+           id="tspan1006"
+           x="44.901279"
+           y="189.76137"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#f2f2f2;stroke-width:0.264583">Diego Automotores</tspan></text>
+    </g>
+    <g
+       id="g909"
+       transform="translate(-2.6726953,30.468726)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#63cab3;stroke-width:1.53379"
+         id="rect892"
+         width="73.766388"
+         height="24.588797"
+         x="234.66264"
+         y="203.12483"
+         ry="8.0180779"
+         rx="6.4144688" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#54c7d6;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="245.35341"
+         y="219.69554"
+         id="text896"><tspan
+           sodipodi:role="line"
+           id="tspan894"
+           x="245.35341"
+           y="219.69554"
+           style="fill:#54c7d6;fill-opacity:1;stroke-width:0.264583">Contactar</tspan></text>
+    </g>
+    <rect
+       style="fill:#54c7d6;fill-opacity:1;stroke:#b3b3b3;stroke-width:1.53379"
+       id="rect915"
+       width="13.363476"
+       height="10.156241"
+       x="248.56064"
+       y="87.12986" />
+    <rect
+       style="fill:#54c7d6;fill-opacity:1;stroke:#b3b3b3;stroke-width:1.51146"
+       id="rect917"
+       width="12.402913"
+       height="10.268547"
+       x="281.05902"
+       y="85.948486" />
+    <rect
+       style="fill:#54c7d6;fill-opacity:1;stroke:#b3b3b3;stroke-width:1.53379"
+       id="rect919"
+       width="155.55086"
+       height="0.53453904"
+       x="188.69228"
+       y="116.52952" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.3305"
+       id="rect927"
+       width="63.075607"
+       height="14.432554"
+       x="240.54259"
+       y="112.2532" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="246.42249"
+       y="120.80583"
+       id="text925"><tspan
+         sodipodi:role="line"
+         id="tspan923"
+         x="246.42249"
+         y="120.80583"
+         style="fill:#b3b3b3;stroke-width:0.264583">Proyectos</tspan></text>
+  </g>
+</svg>

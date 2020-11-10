@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="270"
+   height="270.77942"
+   id="svg3020"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="iconDiego.svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="249.95254"
+     inkscape:cy="207.32673"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-100.04746,-468.90955)">
+    <g
+       id="g3073"
+       transform="matrix(2.0504666,0,0,2.3120108,-151.70204,-798.27723)"
+       style="fill:#dd1c1c;fill-opacity:1">
+      <path
+         style="fill:#dd1c1c;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.13052808"
+         inkscape:connector-curvature="0"
+         class="fil0 str0"
+         d="m 149.02013,575.67745 26.39682,0 0,-27.52738 -52.57096,0 0,86.12798 c 0,0 1.5588,22.37135 30.86767,30.86767 l 70.69415,-0.66806 c 0,0 18.56856,-0.66806 29.53155,-31.31304 l 0.44537,-85.01455 -27.52738,0 0,83.21594 c 0,0 -0.22269,6.49214 -11.18567,8.73613 l -56.59643,-0.44537 c 0,0 -9.16438,-0.23982 -9.72966,-9.74678 l -0.32546,-54.23254 z"
+         id="path4217" />
+      <polygon
+         transform="matrix(0.01712967,0,0,0.01712967,99.909366,242.53963)"
+         style="fill:#dd1c1c;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.61999989"
+         class="fil0 str0"
+         points="4394,22125 5975,22125 5975,20518 4394,20531 "
+         id="polygon4219" />
+    </g>
+  </g>
+</svg>
