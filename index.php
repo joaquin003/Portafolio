@@ -18,7 +18,7 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="img/logoJU.svg" >
     <!--css-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
