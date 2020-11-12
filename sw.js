@@ -52,7 +52,7 @@ self.addEventListener('fetch', (event) => {
         .then(page => page || fetch(event.request)); //si es que no hay en cache, pide a red
     event.respondWith(cacheAyudaRed); */
 
-    /*const cacheAyudaRed = caches.match(event.request)
+    const cacheAyudaRed = caches.match(event.request)
         .then(page => page || fetch(event.request)
         .then(eventRequest => {
             return caches.open(CACHE_NAME_DYNAMIC).then(cache => {
@@ -63,7 +63,7 @@ self.addEventListener('fetch', (event) => {
             })
         }));
         event.respondWith(cacheAyudaRed);
-        console.log("[SW] Archivos guardados..")*/
+        console.log("[SW] Archivos guardados..")
 
     //cuarta estrategia: red pidiendo ayuda a cache
     /* const respuesta = new Response("Esta es la parte que fallo");
@@ -77,7 +77,7 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(redAyudaCache); */
 
     //estrategia final: cache y luego red
-    const chaceLuegoRed = caches.open(CACHE_NAME_DYNAMIC)
+    /*const chaceLuegoRed = caches.open(CACHE_NAME_DYNAMIC)
         .then(cache => {
             return fetch(event.request)
                 .then(response =>{
@@ -88,5 +88,5 @@ self.addEventListener('fetch', (event) => {
                 })
         });
         event.respondWith(chaceLuegoRed);
-        console.log("SW archivos guardados");
+        console.log("SW archivos guardados");*/
 });
