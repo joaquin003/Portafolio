@@ -40,5 +40,10 @@
         </div>
     <div>
     <script src="https://kit.fontawesome.com/55c5a64615.js" crossorigin="anonymous"></script>
+    <script>
+        if('serviceWorker' in navigator){
+            const response = await navigator.serviceWorker.register('sw.js');
+        }
+    </script>
 </body>
 </html>
