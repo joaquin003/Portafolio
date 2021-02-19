@@ -33,17 +33,19 @@ body{
     width: 50%;
     margin: auto;
     margin-bottom: 45px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .proyectos a{
     color: #676767;
     text-decoration: none;
 }
 .proyecto-personal{
-    margin: 24px auto;
+    margin: 24px 20px;
 }
 .logo-proyecto{
     background: #fff;
-    width: 14%;
+    width: 100px;
     border-radius: 50%;
     margin: auto;
     animation: pulseAnim 2s infinite;
@@ -81,9 +83,10 @@ body{
         margin-top: 10px;
     }
     .proyectos{
-        width: 100%;
+        width: 50%;
     }
-    .logo-proyecto{
-        width: 25%;
+    .proyecto-personal{
+        margin: 24px auto;
+        width: 200px;
     }
 }
