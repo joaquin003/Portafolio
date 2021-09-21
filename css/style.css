@@ -1,92 +1,381 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
-body{
-    background: #000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #676767;
-    font-size: 25px;
+body::-webkit-scrollbar {
+  height: 7px;
+  width: 10px;
 }
-.card{
+body::-webkit-scrollbar-thumb {
+  /*Agregamos color al scroll*/
+  background: #73cd8a;
+  border-radius: 4px;
+}
+body::-webkit-scrollbar-track {
+  /*Cambiamos fondo del camino del scroll*/
+  background-color: #0e2e44;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 10%;
+  background-color: #0e2e44;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-right: auto;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav_links li a {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: #50c6dd;
+}
+header button {
+  padding: 9px 25px;
+  margin-left: 20px;
+  background-color: #50c6dd;
+  opacity: 1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+}
+header button:hover {
+  opacity: 0.8;
+}
+.main {
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #0e2e44;
+  height: 92.1vh;
+}
+.main .imgTelefono {
+  width: 450px;
+  height: 450px;
+}
+.info,
+.imgTelefono {
+  margin-top: -60px;
+}
+.info h1 {
+  font-size: 36px;
+  color: #fff;
+}
+.info p {
+  font-size: 22px;
+  margin: 10px 0 50px 0;
+  color: #999;
+  width: 400px;
+}
+.info a {
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.info a i {
+  margin-left: 10px;
+  color: #fff;
+  background-color: #50c6dd;
+  padding: 5px 8px 5px 5px;
+  border-radius: 50%;
+}
+.personalInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.personalInfo div {
+  margin-top: -40px;
+  width: 300px;
+  padding: 0 10px 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #30678c;
+  font-size: 20px;
+  color: #fff;
+}
+.personalInfo div i {
+  margin-top: -60px;
+  margin-bottom: 0;
+  font-size: 36px;
+  padding: 18px;
+  border-radius: 50%;
+  color: #73cd8a;
+  background-color: #20455f;
+}
+.personalInfo div p:nth-child(2) {
+  font-weight: bold;
+  margin: 5px 0;
+}
+.projectSection {
+  padding: 15px 10%;
+}
+.projectSection h2 {
+  font-size: 30px;
+}
+.projectSection .projects {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.projectSection .projects a div {
+  background-color: #e8e7ed;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.projectSection .projects a div img {
+  border-radius: 10px;
+  width: 240px;
+  height: 160px;
+  object-fit: cover;
+}
+.projects div .name {
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+}
+.projects div p:last-child {
+  color: #808080;
+}
+.contacto {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  padding: 30px 10%;
+  justify-content: space-between;
+}
+.contacto .infoContacto h2 {
+  font-size: 30px;
+  color: #0e2e44;
+}
+.contacto .infoContacto p {
+  width: 450px;
+  font-size: 20px;
+  margin: 10px 0 50px 0;
+  color: #666;
+}
+.infoContacto a {
+  color: #fff;
+  font-weight: b;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0e2e44;
+}
+.infoContacto a i {
+  background-color: #73cd8a;
+  padding: 5px 8px 5px 5px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.contacto .imgPersona {
+  width: 380px;
+  height: 380px;
+}
+footer {
+  width: 100%;
+  background: #0e2e44 !important;
+  margin-top: 15px;
+}
+.container-footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 35px 5% 20px 5%;
+}
+.container-body {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+}
+b {
+  font-size: 22px;
+  color: #fff;
+}
+.colum1 {
+  max-width: 400px;
+}
+.colum1 p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.colum2 {
+  max-width: 400px;
+}
+.row {
+  margin-top: 10px;
+  display: flex;
+}
+.row i {
+  font-size: 24px;
+}
+.row a {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+}
+.colum3 {
+  max-width: 400px;
+}
+.row2 {
+  margin-top: 20px;
+}
+.row2 a i {
+  font-size: 24px;
+}
+.row2 a {
+  max-width: 150px;
+  font-size: 16px;
+  color: #999;
+  text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+  .main {
+    height: 60vh;
+  }
+  .main .imgTelefono {
+    width: 350px;
+    height: 350px;
+  }
+  .info h1 {
+    font-size: 30px;
+  }
+  .personalInfo div {
+    margin-top: unset;
+  }
+  .personalInfo div:nth-child(2) {
+    margin: 0 30px;
+  }
+  .contacto .imgPersona {
+    width: 330px;
+    height: 330px;
+  }
+}
+@media screen and (max-height: 768px) {
+  .main .imgTelefono {
+    width: 390px;
+    height: 390px;
+  }
+  .personalInfo div {
+    margin-top: -60px;
+  }
+  .info,
+  .imgTelefono {
+    margin-top: -80px;
+  }
+  .info h1 {
+    font-size: 34px;
+  }
+  .info p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  header {
+    display: none;
+  }
+  .main {
     text-align: center;
-}
-.logo{
-    margin: 10px 0 5px 0;
-    height: 130px;
-    width: 130px;
-}
-.card p{
-    font-weight: bold;
-}
-.card .icon{
-    margin: 0 12px;
-    color: #51c6de;
-}
-.title{
-    position: relative;
-    top: 16px;
-    background: #000;
-    padding: 0 5px;
-}
-.proyectos{
-    width: 50%;
-    margin: auto;
-    margin-bottom: 45px;
-    display: flex;
+    height: unset;
+  }
+  .info h1 {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  .info,
+  .imgTelefono {
+    margin-top: 10px;
+  }
+  .main .imgTelefono {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto 70px auto;
+  }
+  .info p {
+    font-size: 22px;
+    margin: 10px auto 50px auto;
+    color: #999;
+    width: unset;
+  }
+  .personalInfo div {
+    margin: 0 auto 60px auto;
+  }
+  .projectSection h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .projectSection .projects a {
+    margin: 30px auto;
+  }
+  .contacto {
+    text-align: center;
+  }
+  .contacto .imgPersona {
+    width: 280px;
+    height: 280px;
+    margin: 70px auto 0 auto;
+  }
+  .contacto .infoContacto p {
+    width: unset;
+  }
+  footer {
+    display: none;
+  }
+  .personalInfo {
     flex-wrap: wrap;
+  }
+  .projectSection .projects a div img {
+    width: 210px;
+    height: 130px;
+  }
 }
-.proyectos a{
-    color: #676767;
-    text-decoration: none;
-}
-.proyecto-personal{
-    margin: 24px 20px;
-}
-.logo-proyecto{
-    background: #fff;
-    width: 100px;
-    border-radius: 50%;
-    margin: auto;
-    animation: pulseAnim 2s infinite;
-    border: 2px solid #676767;
-}
-.logo-proyecto img{
-    height: 50px;
-    width: 50px;
-    padding: 21px 0 15px 0;
-}
-/*animacion*/
-@keyframes pulseAnim {
-    0% {
-        box-shadow: 0 0 0 0 rgba(88, 120, 243, 0.4);
-    }
-    70% {
-        box-shadow: 0 0 0 10px rgba(88, 120, 243, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(88, 120, 243, 0);
-    }
-}
-.irContacto{
-    text-decoration: none;
-    color: #54c7d6;
-    border: 2px solid;
-    border-radius: 10px;
-    padding: 5px;
-}
-.irContacto:hover{
-    box-shadow: 0 0 10px 0 #54c7d6;
-}
-@media screen and (max-width:450px){
-    .card{
-        margin-top: 10px;
-    }
-    .proyectos{
-        width: 50%;
-    }
-    .proyecto-personal{
-        margin: 24px auto;
-        width: 200px;
-    }
+@media screen and (max-width: 350px) {
+  .info h1 {
+    font-size: 1.5rem;
+  }
+  .projectSection h2 {
+    font-size: 20px;
+  }
+  .main .imgTelefono {
+    width: 280px;
+    height: 280px;
+  }
+  .contacto .imgPersona {
+    width: 260px;
+    height: 260px;
+  }
+  .info p {
+    font-size: 18px;
+  }
 }

@@ -14,43 +14,113 @@
     <meta name="theme-color" content="#51c6de">
     <meta name="author" content="Joaquin Uliambre Frutos">
     <meta name="description" content="Joaquin Uliambre es un programador web dispuesto a ayudarte a darle la presencia digital a tu negocio">
-    <meta name="keywords" content="pagina web paraguay,pagina web,joaquin uliambre,joaquin,pagina web negocio,uliambre">
+    <meta name="keywords" content="pagina web paraguay,pagina web,joaquin uliambre,joaquin,pagina web negocio,uliambre,Joaquin Uliambre,Joaquin">
     <meta property="og:url" content="https://beankeeper.000webhostapp.com/">
     <meta property="og:image" content="img/logoJU.svg" >
     <!--css-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="card">
-        <img class="logo" src="img/logoJU.svg">
-        <p>Joaquin Uliambre</p>
-        <a href="https://www.instagram.com/joaquin_003/" class="icon"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100010631174069" class="icon"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://github.com/joaquin003" class="icon"><i class="fab fa-github"></i></a>
-        <a href="mailto:joaquinuliambre.ju@gmail.com" class="icon"><i class="far fa-envelope"></i></a>
-        <br>
-        <label class="title">Proyectos realizados</label>
-        <hr>
-        <div class="proyectos">
-            <a href="https://diegoautomotores.com.py"><div class="proyecto-personal">
-                <div class="logo-proyecto">
-                    <img src="img/iconDiego.svg">    
-                </div>    
-                <p>Diego Automotores</p>
-            </div></a>
-            <a href="https://topoffice.com.py"><div class="proyecto-personal">
-                <div class="logo-proyecto">
-                    <img src="img/iconoTopOffice.svg">    
-                </div>    
-                <p>Top Office</p>
-            </div></a>
+    <header>
+        <a class="logo" href="index.html"><img src="img/logoJU.svg" alt="logo"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#index">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button>Contactame</button></a>
+    </header>
+    <main>
+        <div class="main" id="main">
+            <div class="info" id="index">
+                <h1>Joaquin Uliambre Frutos</h1>
+                <p>Programador dispuesto a ayudarte a crear la presencia digital que tu negocio necesita</p>
+                <a href="#">Me interesa <i class="fas fa-paper-plane"></i></a>
+            </div>
+            <img class="imgTelefono" src="img/telefono.svg">
+            <div class="personalInfo">
+                <div>
+                    <p><i class="fas fa-desktop"></i></p>
+                    <p>30</p>
+                    <p>Proyectos realizados</p>
+                </div>
+                <div>
+                    <p><i class="fas fa-download"></i></p>
+                    <p>+100</p>
+                    <p>Descargas de Aplicaciones</p>
+                </div>
+                <div>
+                    <p><i class="fas fa-store-alt"></i></p>
+                    <p>2</p>
+                    <p>Marcas ayudadas</p>
+                </div>
+            </div>
         </div>
-    <div>
-    <script src="https://kit.fontawesome.com/55c5a64615.js" crossorigin="anonymous"></script>
+        <div class="projectSection">
+            <h2>Proyectos destacados</h2>
+            <div class="projects">
+                <a href="#">
+                    <div>
+                        <img src="img/iconoTopOffice.svg">
+                        <p class="name">Top Office</p>
+                        <p><i class="fab fa-google-play"></i></p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <img src="img/iconoBeankeeper.svg">
+                        <p class="name">Beankeeper</p>
+                        <p><i class="fab fa-google-play"></i></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="contacto">
+            <div class="infoContacto">
+                <h2>Empieza con un correo</h2>
+                <p>Mandanos un correo para empezar a crear tu pagina web, tienda online o aplicación móvil como a ti más te guste</p>
+                <a href="#">Enviar correo <i class="fas fa-paper-plane"></i></a>
+            </div>
+            <img class="imgPersona" src="img/persona.svg">
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer-all">
+            <div class="container-body">
+                <div class="colum1">
+                    <b>Joaquin Uliambre Frutos</b>
+                    <p>Programador dispuesto a ayudarte a crear la presencia digital que tu negocio necesita</p>
+                </div>
+                <div class="colum2">
+                    <b>Redes Sociales</b>
+                    <div class="row">
+                        <a href="#">Facebook</a>
+                    </div>
+                    <div class="row">
+                     <a href="#">Instagram</a>
+                    </div>
+                    <div class="row">
+                        <a href="#">Github</a>
+                    </div>
+                </div>
+                <div class="colum3">
+                    <b>Marcas que ayudamos</b>
+                    <div class="row2">
+                        <a href="#">Beankeeper</a>
+                    </div>
+                    <div class="row2">
+                        <a href="#">Top Office</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script>
         if('serviceWorker' in navigator){
             const response = navigator.serviceWorker.register('sw.js');
         }
     </script>
+    <script src="https://kit.fontawesome.com/55c5a64615.js" crossorigin="anonymous"></script>
 </body>
 </html>

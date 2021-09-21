@@ -1,6 +1,6 @@
 const CACHE_NAME_CORE = 'cache-v1';
 const CACHE_FILES_CORE =[
-    'img/iconDiego.svg',
+    'img/iconoBeankeeper.svg',
     'css/errores.css',
     'css/style.css',
     'index.html',
@@ -9,7 +9,10 @@ const CACHE_FILES_CORE =[
     'favicon/favicon.ico',
     'errores/pag404.html',
     'errores/pag403.html',
-    'errores/pag500.html'
+    'errores/pag500.html',
+    'img/iconoTopOffice.svg',
+    'img/persona.svg',
+    'img/telefono.svg'
 ];
 
 const CACHE_NAME_DYNAMIC = 'dynamic-v1';
