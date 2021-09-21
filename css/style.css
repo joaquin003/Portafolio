@@ -359,6 +359,9 @@ b {
     width: 210px;
     height: 130px;
   }
+  .personalInfo div:nth-child(2) {
+    margin: 0 auto 60px auto;
+  }
 }
 @media screen and (max-width: 350px) {
   .info h1 {
