@@ -260,6 +260,9 @@ b {
   color: #999;
   text-decoration: none;
 }
+.social_links{
+  display: none;
+}
 @media screen and (max-width: 1024px) {
   .main {
     height: 60vh;
@@ -349,7 +352,7 @@ b {
   .contacto .infoContacto p {
     width: unset;
   }
-  footer {
+  .container-footer-all {
     display: none;
   }
   .personalInfo {
@@ -361,6 +364,22 @@ b {
   }
   .personalInfo div:nth-child(2) {
     margin: 0 auto 60px auto;
+  }
+  .social_links{
+    display: block;
+    padding: 25px 0;
+  }
+  .social_links ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .social_links a{
+    color: #73cd8a;
+    padding: 10px 20px;
+    border-radius: 50%;
+    background-color: #20455f;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 350px) {
