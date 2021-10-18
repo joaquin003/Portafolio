@@ -1,8 +1,8 @@
 {
-    "name": "Joaquin Uliambre",
+    "name": "Joaquin Uliambre Frutos",
     "short_name": "Joaquin U",
     "theme_color": "#0e2e44",
-    "background_color": "#0e2e44",
+    "background_color": "#ffffff",
     "display": "standalone",
     "orientation": "portrait",
     "start_url": ".",
