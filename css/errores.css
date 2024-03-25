@@ -1,51 +1,53 @@
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-img{
-    position: absolute;
-    left: 43%;
-    width: 200px;
-    height: 200px;
-    top: 13%;
-}
-h1{
+
+h1 {
     font-weight: bold;
 }
-.mensaje{
-    text-align: center;
-    margin-top: 370px;
+
+.containerError {
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
-.volver{
+
+.logo {
+    margin: auto;
+}
+
+.mensaje {
+    text-align: center;
+}
+
+.volver {
     text-decoration: none;
     color: #fff;
     padding: 5px 20px;
-    background-color:  #51c6de;
+    background-color: #51c6de;
     border-radius: 10px;
     font-size: 20px;
 }
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #121212;
     }
-    h1,h2{
+
+    h1,
+    h2 {
         color: #fff;
     }
 }
+
 @media (prefers-color-scheme: light) {
     body {
         background-color: #fff;
     }
-    h1,h2{
+
+    h1,
+    h2 {
         color: #000;
-    }
-}
-@media screen and (max-width: 450px){
-    img{
-        left: 26%;
-    }
-}
-@media screen and (max-width: 360px){
-    img{
-        left: 24%;
     }
 }
