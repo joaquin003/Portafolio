@@ -190,6 +190,7 @@ header button:hover {
 }
 
 .projects div .name {
+  text-align: center;
   color: #000;
   font-size: 22px;
   font-weight: bold;
@@ -437,7 +438,6 @@ b {
   }
 
   .projectSection .projects a div img {
-    width: 210px;
     height: 130px;
   }
 
