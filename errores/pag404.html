@@ -1,25 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--informacion-->
+    <title>Error 404 | Joaquin Uliambre Frutos</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="../favicon/safari-pinned-tab.svg"
+      color="#51c6de"
+    />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="theme-color" content="#51c6de" />
+    <meta name="author" content="Joaquin Uliambre Frutos" />
+    <meta
+      name="description"
+      content="Soy un programador dispuesto a ayudarte a darle la presencia digital a tu negocio"
+    />
+    <meta
+      name="keywords"
+      content="pagina web paraguay,pagina web,joaquin uliambre,joaquin,pagina web negocio,uliambre,Joaquin Uliambre,Joaquin"
+    />
+    <meta property="og:url" content="https://joauliambre.com" />
+    <meta property="og:image" content="img/logoJU.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:title" content="Joaquin Uliambre Frutos" />
+    <meta property="og:site_name" content="Joaquin Uliambre Frutos" />
+    <!--css-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/inicio.css" />
+    <link rel="stylesheet" href="../css/proyectos.css" />
+    <link rel="stylesheet" href="../css/sistemas.css" />
+    <link rel="stylesheet" href="../css/errores.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
-    <link rel="stylesheet" href="../css/errores.css">
-    <title>Error 404</title>
-</head>
-
-<body>
+  <body>
+    <header>
+      <a class="logo" href="../index.html">
+        <img src="../img/logoJU.svg" alt="logo" />
+        <p>Joaquin Uliambre</p>
+      </a>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#sistemas">Sistemas</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+        </ul>
+      </nav>
+      <a href="https://wa.me/595971153140?text=Hola!">
+        <button>Contactame</button>
+      </a>
+    </header>
     <div class="containerError">
-        <img class="logo" src="../img/logoJU.svg">
-        <div class="mensaje">
-            <h1>Error 404</h1>
-            <h2>No se encontró la página</h2>
-            <a class="volver" href="../index.html">Volver</a>
-        </div>
+      <div class="mensaje">
+        <div class="hero-badge">Error 404</div>
+        <h1>404</h1>
+        <h2>Página no encontrada</h2>
+        <p>
+          La página que buscas no existe o fue movida. Puede que la URL esté mal
+          escrita.
+        </p>
+        <a
+          class="btn-ghost"
+          href="#"
+          onclick="
+            history.back();
+            return false;
+          "
+          >Volver a la página anterior</a
+        >
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
