@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--informacion-->
-    <title>Joaquin Uliambre Frutos</title>
+    <title>
+      Joaquin Uliambre | Desarrollo web y sistemas de gestión en Paraguay
+    </title>
+    <meta
+      name="description"
+      content="Desarrollo web full stack en Paraguay. Sistema de gestión para estudios de Pilates y gimnasios, y páginas web a medida para tu negocio."
+    />
+    <link rel="canonical" href="https://joauliambre.com/" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -22,7 +29,7 @@
       sizes="16x16"
       href="favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="../site.webmanifest" />
+    <link rel="manifest" href="./site.webmanifest" />
     <link
       rel="mask-icon"
       href="favicon/safari-pinned-tab.svg"
@@ -31,19 +38,73 @@
     <meta name="msapplication-TileColor" content="#00aba9" />
     <meta name="theme-color" content="#51c6de" />
     <meta name="author" content="Joaquin Uliambre Frutos" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_PY" />
+    <meta property="og:url" content="https://joauliambre.com/" />
     <meta
-      name="description"
-      content="Soy un programador dispuesto a ayudarte a darle la presencia digital a tu negocio"
+      property="og:title"
+      content="Joaquin Uliambre | Desarrollo web y sistemas de gestión en Paraguay"
     />
     <meta
-      name="keywords"
-      content="pagina web paraguay,pagina web,joaquin uliambre,joaquin,pagina web negocio,uliambre,Joaquin Uliambre,Joaquin"
+      property="og:description"
+      content="Sistema de gestión para estudios de Pilates y gimnasios, y páginas web a medida para tu negocio en Paraguay."
     />
-    <meta property="og:url" content="https://joauliambre.com" />
-    <meta property="og:image" content="img/logoJU.png" />
+    <meta
+      property="og:image"
+      content="https://joauliambre.com/img/logoJU.png"
+    />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:title" content="Joaquin Uliambre Frutos" />
     <meta property="og:site_name" content="Joaquin Uliambre Frutos" />
+
+    <!-- Datos estructurados -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://joauliambre.com/#joaquin",
+            "name": "Joaquin Uliambre Frutos",
+            "url": "https://joauliambre.com/",
+            "jobTitle": "Desarrollador web full stack",
+            "address": { "@type": "PostalAddress", "addressCountry": "PY" },
+            "sameAs": [
+              "https://github.com/joaquin003",
+              "https://www.linkedin.com/in/j-uliambre"
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Sistema de Gestión para Pilates",
+            "description": "Sistema web para estudios de Pilates: agenda de clases, cuotas, ficha de alumnos, control de asistencias, avisos por correo y WhatsApp, multi-sucursal y control de finanzas.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "300000",
+              "priceCurrency": "PYG"
+            },
+            "provider": { "@id": "https://joauliambre.com/#joaquin" }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Sistema de Gestión para Gimnasios",
+            "description": "Sistema web para gimnasios: planes, cuotas, clientes, control de asistencias, venta de productos, reportes, avisos por correo y WhatsApp y control de finanzas.",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "Offer",
+              "price": "300000",
+              "priceCurrency": "PYG"
+            },
+            "provider": { "@id": "https://joauliambre.com/#joaquin" }
+          }
+        ]
+      }
+    </script>
+
     <!--css-->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/nav.css" />
@@ -55,8 +116,8 @@
   <body>
     <!-- nav -->
     <header>
-      <a class="logo" href="index.html ">
-        <img src="img/logoJU.svg" alt="logo" />
+      <a class="logo" href="index.html">
+        <img src="img/logoJU.svg" alt="Logo de Joaquin Uliambre" />
         <p>Joaquin Uliambre</p>
       </a>
       <nav>
@@ -82,7 +143,8 @@
           <h1>Desarrollo web <span>full stack</span><br />para tu negocio</h1>
           <p>
             Transformo ideas en productos digitales reales. Aplicaciones web
-            escalables, sistemas de gestión y software a medida.
+            escalables, sistemas de gestión para Pilates y gimnasios, y software
+            a medida en Paraguay.
           </p>
           <div class="hero-btns">
             <a href="https://wa.me/595971153140?text=Hola!" class="btn-primary">
@@ -138,10 +200,10 @@
       </div>
 
       <!-- PROYECTOS A MEDIDA -->
-      <div class="section" id="proyectos">
+      <section class="section" id="proyectos">
         <div class="section-header">
           <div>
-            <div class="section-title">Proyectos a medida</div>
+            <h2 class="section-title">Proyectos a medida</h2>
             <div class="section-sub">
               Desarrollo personalizado para cada cliente
             </div>
@@ -151,7 +213,10 @@
           <a href="https://beankeeper.joauliambre.com/" target="_blank">
             <div class="proj-card">
               <div class="proj-thumb">
-                <img src="img/iconoBeankeeper.svg" alt="icono de beankeeper" />
+                <img
+                  src="img/iconoBeankeeper.svg"
+                  alt="Ícono de Beankeeper, sistema web de gestión de finanzas"
+                />
               </div>
               <div class="proj-info">
                 <div class="proj-name">Beankeeper</div>
@@ -169,7 +234,7 @@
               <div class="proj-thumb">
                 <img
                   src="img/logo_josemar.svg"
-                  alt="logo de josemar constructora"
+                  alt="Logo de Josemar Constructora"
                 />
               </div>
               <div class="proj-info">
@@ -184,35 +249,36 @@
             </div></a
           >
         </div>
-      </div>
+      </section>
 
       <!-- SISTEMAS SAAS -->
-      <div class="section" id="sistemas">
+      <section class="section" id="sistemas">
         <div class="section-header">
           <div>
-            <div class="section-title">Sistemas de gestión — SaaS</div>
+            <h2 class="section-title">Sistemas de gestión — SaaS</h2>
             <div class="section-sub">
-              Soluciones listas para usar, por suscripción mensual
+              Soluciones listas para usar, por suscripción mensual. Software
+              para estudios de Pilates y gimnasios en Paraguay.
             </div>
           </div>
         </div>
         <div class="saas-grid">
           <!-- sistema pilates-->
-          <div class="saas-card">
+          <article class="saas-card" id="sistema-pilates">
             <div class="saas-header">
               <div>
-                <div class="saas-name">Sistema de Gestión para Pilates</div>
+                <h3 class="saas-name">Sistema de Gestión para Pilates</h3>
               </div>
               <div class="saas-price">Gs. 300.000 <span>/mes</span></div>
             </div>
             <div class="saas-desc">
-              Sistema personalizable para gestión de horarios, cuotas, alumnos y
-              asistencias.
+              Sistema para estudios de Pilates: gestión de horarios, cuotas,
+              alumnos y asistencias, totalmente personalizable.
             </div>
             <div class="saas-features">
               <div class="saas-feat">
                 <div class="feat-check">✓</div>
-                Agenda inteligente
+                Agenda inteligente de clases
               </div>
               <div class="saas-feat">
                 <div class="feat-check">✓</div>
@@ -228,7 +294,7 @@
               </div>
               <div class="saas-feat">
                 <div class="feat-check">✓</div>
-                Avisos por correo y whatsApp
+                Avisos por correo y WhatsApp
               </div>
               <div class="saas-feat">
                 <div class="feat-check">✓</div>
@@ -240,23 +306,26 @@
               </div>
             </div>
             <div style="margin-top: 10px; display: flex; gap: 6px">
-              <a href="https://wa.me/595971153140?text=Hola!" class="saas-btn">
+              <a
+                href="https://wa.me/595971153140?text=Hola!%20Quiero%20saber%20m%C3%A1s%20sobre%20el%20sistema%20de%20gesti%C3%B3n%20para%20Pilates"
+                class="saas-btn"
+              >
                 Quiero saber más
               </a>
             </div>
-          </div>
+          </article>
 
           <!-- sistema gimnasio-->
-          <div class="saas-card">
+          <article class="saas-card" id="sistema-gimnasio">
             <div class="saas-header">
               <div>
-                <div class="saas-name">Sistema de Gestión para Gimnasios</div>
+                <h3 class="saas-name">Sistema de Gestión para Gimnasios</h3>
               </div>
               <div class="saas-price">Gs. 300.000 <span>/mes</span></div>
             </div>
             <div class="saas-desc">
-              Sistema personalizable para gestión de planes, cuotas, clientes y
-              asistencias.
+              Sistema para gimnasios: gestión de planes, cuotas, clientes y
+              asistencias, totalmente personalizable.
             </div>
             <div class="saas-features">
               <div class="saas-feat">
@@ -277,7 +346,7 @@
               </div>
               <div class="saas-feat">
                 <div class="feat-check">✓</div>
-                Avisos por correo y whatsApp
+                Avisos por correo y WhatsApp
               </div>
               <div class="saas-feat">
                 <div class="feat-check">✓</div>
@@ -289,18 +358,21 @@
               </div>
             </div>
             <div style="margin-top: 10px; display: flex; gap: 6px">
-              <a href="https://wa.me/595971153140?text=Hola!" class="saas-btn">
+              <a
+                href="https://wa.me/595971153140?text=Hola!%20Quiero%20saber%20m%C3%A1s%20sobre%20el%20sistema%20de%20gesti%C3%B3n%20para%20gimnasios"
+                class="saas-btn"
+              >
                 Quiero saber más
               </a>
             </div>
-          </div>
+          </article>
         </div>
-      </div>
+      </section>
 
       <!-- PASOS -->
-      <div class="section" id="proceso">
+      <section class="section" id="proceso">
         <div class="section-header">
-          <div class="section-title">Así trabajamos juntos</div>
+          <h2 class="section-title">Así trabajamos juntos</h2>
         </div>
         <div class="steps">
           <div class="step-card">
@@ -332,7 +404,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- CTA -->
       <div class="cta-section">
@@ -368,7 +440,7 @@
     </footer>
     <script>
       if ("serviceWorker" in navigator) {
-        const response = navigator.serviceWorker.register("sw.js");
+        navigator.serviceWorker.register("sw.js");
       }
     </script>
     <script
